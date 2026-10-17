@@ -1,0 +1,60 @@
+
+---
+title: "Herramientas"
+---
+
+
+
+Colección de paquetes de R para la importación, transformación, visualización y análisis de datos.
+
+::: {.paquetes-grid}
+
+<a href="https://dplyr.tidyverse.org/" target="_blank" rel="noopener noreferrer" class="paquete">
+  <img src="https://raw.githubusercontent.com/tidyverse/dplyr/main/man/figures/logo.png" alt="Logotipo de dplyr">
+  <span>dplyr</span>
+</a>
+
+<a href="https://ggplot2.tidyverse.org/" target="_blank" rel="noopener noreferrer" class="paquete">
+  <img src="https://raw.githubusercontent.com/tidyverse/ggplot2/main/man/figures/logo.png" alt="Logotipo de ggplot2">
+  <span>ggplot2</span>
+</a>
+
+<a href="https://tidyr.tidyverse.org/" target="_blank" rel="noopener noreferrer" class="paquete">
+  <img src="https://raw.githubusercontent.com/tidyverse/tidyr/main/man/figures/logo.png" alt="Logotipo de tidyr">
+  <span>tidyr</span>
+</a>
+
+<a href="https://readr.tidyverse.org/" target="_blank" rel="noopener noreferrer" class="paquete">
+  <img src="https://raw.githubusercontent.com/tidyverse/readr/main/man/figures/logo.png" alt="Logotipo de readr">
+  <span>readr</span>
+</a>
+
+<a href="https://purrr.tidyverse.org/" target="_blank" rel="noopener noreferrer" class="paquete">
+  <img src="https://raw.githubusercontent.com/tidyverse/purrr/main/man/figures/logo.png" alt="Logotipo de purrr">
+  <span>purrr</span>
+</a>
+
+<a href="https://tibble.tidyverse.org/" target="_blank" rel="noopener noreferrer" class="paquete">
+  <img src="https://raw.githubusercontent.com/tidyverse/tibble/main/man/figures/logo.png" alt="Logotipo de tibble">
+  <span>tibble</span>
+</a>
+
+<a href="https://stringr.tidyverse.org/" target="_blank" rel="noopener noreferrer" class="paquete">
+  <img src="https://raw.githubusercontent.com/tidyverse/stringr/main/man/figures/logo.png" alt="Logotipo de stringr">
+  <span>stringr</span>
+</a>
+
+<a href="https://forcats.tidyverse.org/" target="_blank" rel="noopener noreferrer" class="paquete">
+  <img src="https://raw.githubusercontent.com/tidyverse/forcats/main/man/figures/logo.png" alt="Logotipo de forcats">
+  <span>forcats</span>
+</a>
+
+<a href="https://lubridate.tidyverse.org/" target="_blank" rel="noopener noreferrer" class="paquete">
+  <img src="https://raw.githubusercontent.com/tidyverse/lubridate/main/man/figures/logo.png" alt="Logotipo de lubridate">
+  <span>lubridate</span>
+</a>
+
+:::
+
+
+

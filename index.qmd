@@ -1,0 +1,55 @@
+---
+title: "Inicio"
+title-block-style: none
+page-layout: full
+---
+
+::: {.home-container}
+
+::: {.hero}
+
+
+::: {.hero-label}
+R / ESTADÍSTICA / INVESTIGACIÓN
+:::
+
+
+# Investigación cuantitativa aplicada a políticas públicas
+
+Análisis de fuentes secundarias mediante métodos estadísticos y R, con énfasis en la transparencia metodológica y la reproducibilidad.
+
+::: hero-actions
+[Explorar proyectos](proyectos.qmd){.btn .btn-primary}
+
+[Conocer la metodología](metodologia.qmd){.btn .btn-outline-secondary}
+:::
+::::
+
+------------------------------------------------------------------------
+
+
+
+## Áreas de análisis
+
+Aplicación de métodos estadísticos y técnicas de análisis cuantitativo al estudio de problemas públicos.
+
+**Estadística descriptiva · Inferencia estadística · Modelos de regresión · Series temporales · Análisis espacial · Simulación **
+
+
+
+------------------------------------------------------------------------
+
+## Investigaciones
+
+Una selección de investigaciones sobre problemas públicos, con sus principales hallazgos, resultados y fuentes de información.
+
+[Consultar proyectos →](proyectos.qmd)
+
+------------------------------------------------------------------------
+
+## Metodología de trabajo
+
+El trabajo se organiza mediante un ciclo de análisis de datos de ocho etapas, desde la definición de la pregunta de investigación hasta la comunicación de resultados.
+
+[Consultar metodología →](metodologia.qmd)
+:::::

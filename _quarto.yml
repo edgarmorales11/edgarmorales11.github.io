@@ -1,0 +1,28 @@
+
+project:
+  type: website
+
+website:
+  title: "Edgar Morales"
+  navbar:
+    background: light
+    foreground: dark
+    right:
+      - href: index.qmd
+        text: Inicio
+      - href: proyectos.qmd
+        text: Proyectos
+      - href: metodologia.qmd
+        text: Metodología
+      - href: herramientas.qmd
+        text: Herramientas
+      - href: sobre-mi.qmd
+        text: Bio
+      
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+

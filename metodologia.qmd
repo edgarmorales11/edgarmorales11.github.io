@@ -1,0 +1,73 @@
+
+---
+title: "Metodología"
+page-layout: full
+toc: false
+title-block-banner: false
+title-block-style: none
+---
+
+# Ciclo de análisis
+
+El ciclo de análisis organiza las principales etapas de una investigación cuantitativa, desde la formulación de una pregunta hasta la comunicación de resultados. El proceso se apoya en el uso de fuentes secundarias, métodos estadísticos y herramientas de R, con énfasis en la transparencia metodológica y la reproducibilidad.
+
+::: {.ciclo-grid}
+
+::: {.ciclo-card .etapa-01}
+<div class="ciclo-numero">01</div>
+
+### Definir la pregunta de investigación
+
+Toda investigación comienza con la identificación y delimitación de un problema público. En esta etapa se formulan las preguntas que orientarán el análisis, se establecen los objetivos y se identifican las dimensiones del fenómeno que se busca estudiar. Una pregunta bien definida permite seleccionar información pertinente y elegir métodos adecuados.
+:::
+
+::: {.ciclo-card .etapa-02}
+<div class="ciclo-numero">02</div>
+
+### Buscar y obtener datos
+
+Se identifican y seleccionan fuentes secundarias de información, como encuestas, censos, registros administrativos y bases de datos públicas. Se examinan su cobertura geográfica y temporal, nivel de desagregación, calidad y documentación metodológica. Esta revisión permite valorar si los datos disponibles son adecuados para responder la pregunta de investigación.
+:::
+
+::: {.ciclo-card .etapa-03}
+<div class="ciclo-numero">03</div>
+
+### Importar y limpiar datos en R
+
+Los conjuntos de datos se incorporan a R para examinar su estructura, contenido y consistencia. Se identifican valores faltantes, registros duplicados, errores de codificación y otras posibles inconsistencias. La limpieza busca asegurar que la información sea confiable y esté en condiciones adecuadas para las etapas posteriores.
+:::
+
+::: {.ciclo-card .etapa-04}
+<div class="ciclo-numero">04</div>
+
+### Transformar datos
+
+Los datos se organizan y adaptan de acuerdo con los objetivos del análisis. Esto puede incluir la selección y recodificación de variables, la integración de distintas fuentes, la creación de indicadores y la agregación de observaciones. El propósito es construir una estructura de datos que permita estudiar el fenómeno de manera consistente.
+:::
+
+::: {.ciclo-card .etapa-05}
+<div class="ciclo-numero">05</div>
+
+### Analizar y visualizar
+
+Se aplican técnicas estadísticas para describir los datos, identificar patrones, explorar relaciones y examinar posibles diferencias entre grupos o periodos. Las visualizaciones permiten representar distribuciones, tendencias y resultados de manera comprensible. La selección de los métodos depende de la pregunta de investigación, las características de los datos y los supuestos de cada técnica.
+:::
+
+::: {.ciclo-card .etapa-06}
+<div class="ciclo-numero">06</div>
+
+### Interpretar y validar
+
+Los resultados se examinan considerando el contexto del problema público y los objetivos de la investigación. Se revisa su consistencia, se evalúan los supuestos de los métodos utilizados y, cuando corresponde, se realizan análisis de sensibilidad o comprobaciones adicionales. También se identifican las limitaciones de los datos y se evita atribuir relaciones causales cuando la evidencia no permite establecerlas.
+:::
+
+::: {.ciclo-card .etapa-07}
+<div class="ciclo-numero">07</div>
+
+### Comunicar resultados
+
+Los principales hallazgos se presentan mediante informes, tablas, gráficos y otros recursos que faciliten su comprensión. La comunicación distingue entre resultados, interpretaciones y limitaciones, procurando que la evidencia sea útil para el análisis de problemas públicos. Se documentan las fuentes, los métodos y los procedimientos empleados para favorecer la transparencia y la reproducibilidad.
+:::
+
+
+

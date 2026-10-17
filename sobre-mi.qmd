@@ -1,0 +1,20 @@
+---
+title: "Bio"
+---
+
+<div class="bio-hexagono">
+  <img src="images/bio-edgar2.png"
+       alt="Retrato de Edgar Morales">
+</div>
+
+Soy licenciado en Sistemas Computacionales por la Universidad Autónoma de Baja California (UABC), con estudios de posgrado en Administración de Negocios en Pacífico Universidad. Mi formación combina conocimientos sobre sistemas de información con una perspectiva organizacional sobre el uso de datos, la gestión institucional y los procesos de toma de decisiones.
+
+Mi trayectoria profesional comenzó con un proyecto de integración de sistemas para el área de telefonía pública y rural de Teléfonos de México, en la región noroeste del país. El trabajo consistió en integrar distintas bases de datos y desarrollar un tablero de indicadores que permitiera consultar, organizar y analizar información para apoyar las decisiones de la gerencia. Posteriormente, colaboré en la elaboración del manual de políticas y procedimientos de una institución universitaria, un trabajo orientado a documentar y organizar sus procesos internos.
+
+Más adelante, coordiné un proyecto de promoción nacional de CETYS Universidad, relacionado con una iniciativa de desarrollo económico de Baja California orientada a la atracción y formación de talento para atender las necesidades de la industria regional. Este trabajo me permitió visitar distintas ciudades de México, conocer estudiantes de diversos contextos sociales y económicos e investigar las características de las regiones donde se desarrollaban las actividades de promoción.
+
+El contacto con estas realidades despertó mi interés por las diferencias territoriales, las oportunidades educativas y los factores sociales y económicos que influyen en el desarrollo regional. A partir de esta experiencia surgió una inquietud por comprender estos fenómenos más allá de la observación directa, mediante el estudio sistemático de información y evidencia empírica.
+
+Actualmente, mis intereses se orientan hacia la investigación cuantitativa aplicada al análisis de problemas públicos. Me interesa trabajar con fuentes secundarias de información, como censos, encuestas y registros administrativos, utilizando métodos estadísticos y herramientas de R para explorar patrones, examinar relaciones y estudiar diferencias entre poblaciones, territorios y periodos.
+
+Este sitio reúne proyectos de análisis e investigación que buscan documentar ese proceso de trabajo. A través de ellos, procuro presentar de manera transparente las fuentes de información, las decisiones metodológicas, los procedimientos de análisis y las limitaciones de los resultados, con énfasis en la reproducibilidad y la comunicación clara de la evidencia.
