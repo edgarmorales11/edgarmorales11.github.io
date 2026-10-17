@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "sobre-mi.html",
+    "href": "sobre-mi.html",
+    "title": "Bio",
+    "section": "",
+    "text": "Soy licenciado en Sistemas Computacionales por la Universidad Autónoma de Baja California (UABC), con estudios de posgrado en Administración de Negocios en Pacífico Universidad. Mi formación combina conocimientos sobre sistemas de información con una perspectiva organizacional sobre el uso de datos, la gestión institucional y los procesos de toma de decisiones.\nMi trayectoria profesional comenzó con un proyecto de integración de sistemas para el área de telefonía pública y rural de Teléfonos de México, en la región noroeste del país. El trabajo consistió en integrar distintas bases de datos y desarrollar un tablero de indicadores que permitiera consultar, organizar y analizar información para apoyar las decisiones de la gerencia. Posteriormente, colaboré en la elaboración del manual de políticas y procedimientos de una institución universitaria, un trabajo orientado a documentar y organizar sus procesos internos.\nMás adelante, coordiné un proyecto de promoción nacional de CETYS Universidad, relacionado con una iniciativa de desarrollo económico de Baja California orientada a la atracción y formación de talento para atender las necesidades de la industria regional. Este trabajo me permitió visitar distintas ciudades de México, conocer estudiantes de diversos contextos sociales y económicos e investigar las características de las regiones donde se desarrollaban las actividades de promoción.\nEl contacto con estas realidades despertó mi interés por las diferencias territoriales, las oportunidades educativas y los factores sociales y económicos que influyen en el desarrollo regional. A partir de esta experiencia surgió una inquietud por comprender estos fenómenos más allá de la observación directa, mediante el estudio sistemático de información y evidencia empírica.\nActualmente, mis intereses se orientan hacia la investigación cuantitativa aplicada al análisis de problemas públicos. Me interesa trabajar con fuentes secundarias de información, como censos, encuestas y registros administrativos, utilizando métodos estadísticos y herramientas de R para explorar patrones, examinar relaciones y estudiar diferencias entre poblaciones, territorios y periodos.\nEste sitio reúne proyectos de análisis e investigación que buscan documentar ese proceso de trabajo. A través de ellos, procuro presentar de manera transparente las fuentes de información, las decisiones metodológicas, los procedimientos de análisis y las limitaciones de los resultados, con énfasis en la reproducibilidad y la comunicación clara de la evidencia."
+  },
+  {
+    "objectID": "metodologia.html",
+    "href": "metodologia.html",
+    "title": "Metodología",
+    "section": "",
+    "text": "Ciclo de análisis\nEl ciclo de análisis organiza las principales etapas de una investigación cuantitativa, desde la formulación de una pregunta hasta la comunicación de resultados. El proceso se apoya en el uso de fuentes secundarias, métodos estadísticos y herramientas de R, con énfasis en la transparencia metodológica y la reproducibilidad.\n\n\n\n01\n\n\nDefinir la pregunta de investigación\nToda investigación comienza con la identificación y delimitación de un problema público. En esta etapa se formulan las preguntas que orientarán el análisis, se establecen los objetivos y se identifican las dimensiones del fenómeno que se busca estudiar. Una pregunta bien definida permite seleccionar información pertinente y elegir métodos adecuados.\n\n\n\n\n02\n\n\nBuscar y obtener datos\nSe identifican y seleccionan fuentes secundarias de información, como encuestas, censos, registros administrativos y bases de datos públicas. Se examinan su cobertura geográfica y temporal, nivel de desagregación, calidad y documentación metodológica. Esta revisión permite valorar si los datos disponibles son adecuados para responder la pregunta de investigación.\n\n\n\n\n03\n\n\nImportar y limpiar datos en R\nLos conjuntos de datos se incorporan a R para examinar su estructura, contenido y consistencia. Se identifican valores faltantes, registros duplicados, errores de codificación y otras posibles inconsistencias. La limpieza busca asegurar que la información sea confiable y esté en condiciones adecuadas para las etapas posteriores.\n\n\n\n\n04\n\n\nTransformar datos\nLos datos se organizan y adaptan de acuerdo con los objetivos del análisis. Esto puede incluir la selección y recodificación de variables, la integración de distintas fuentes, la creación de indicadores y la agregación de observaciones. El propósito es construir una estructura de datos que permita estudiar el fenómeno de manera consistente.\n\n\n\n\n05\n\n\nAnalizar y visualizar\nSe aplican técnicas estadísticas para describir los datos, identificar patrones, explorar relaciones y examinar posibles diferencias entre grupos o periodos. Las visualizaciones permiten representar distribuciones, tendencias y resultados de manera comprensible. La selección de los métodos depende de la pregunta de investigación, las características de los datos y los supuestos de cada técnica.\n\n\n\n\n06\n\n\nInterpretar y validar\nLos resultados se examinan considerando el contexto del problema público y los objetivos de la investigación. Se revisa su consistencia, se evalúan los supuestos de los métodos utilizados y, cuando corresponde, se realizan análisis de sensibilidad o comprobaciones adicionales. También se identifican las limitaciones de los datos y se evita atribuir relaciones causales cuando la evidencia no permite establecerlas.\n\n\n\n\n07\n\n\nComunicar resultados\nLos principales hallazgos se presentan mediante informes, tablas, gráficos y otros recursos que faciliten su comprensión. La comunicación distingue entre resultados, interpretaciones y limitaciones, procurando que la evidencia sea útil para el análisis de problemas públicos. Se documentan las fuentes, los métodos y los procedimientos empleados para favorecer la transparencia y la reproducibilidad."
+  },
+  {
+    "objectID": "herramientas.html",
+    "href": "herramientas.html",
+    "title": "Herramientas",
+    "section": "",
+    "text": "Colección de paquetes de R para la importación, transformación, visualización y análisis de datos.\n\n  dplyr \n  ggplot2 \n  tidyr \n  readr \n  purrr \n  tibble \n  stringr \n  forcats \n  lubridate"
+  },
+  {
+    "objectID": "index.html#áreas-de-análisis",
+    "href": "index.html#áreas-de-análisis",
+    "title": "Inicio",
+    "section": "Áreas de análisis",
+    "text": "Áreas de análisis\nAplicación de métodos estadísticos y técnicas de análisis cuantitativo al estudio de problemas públicos.\nEstadística descriptiva · Inferencia estadística · Modelos de regresión · Series temporales · Análisis espacial · Simulación"
+  },
+  {
+    "objectID": "index.html#investigaciones",
+    "href": "index.html#investigaciones",
+    "title": "Inicio",
+    "section": "Investigaciones",
+    "text": "Investigaciones\nUna selección de investigaciones sobre problemas públicos, con sus principales hallazgos, resultados y fuentes de información.\nConsultar proyectos →"
+  },
+  {
+    "objectID": "index.html#metodología-de-trabajo",
+    "href": "index.html#metodología-de-trabajo",
+    "title": "Inicio",
+    "section": "Metodología de trabajo",
+    "text": "Metodología de trabajo\nEl trabajo se organiza mediante un ciclo de análisis de datos de ocho etapas, desde la definición de la pregunta de investigación hasta la comunicación de resultados.\nConsultar metodología →"
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Aquí publicaré mis investigaciones cuantitativas aplicadas a políticas públicas."
+  }
+]

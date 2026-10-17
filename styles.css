@@ -1,0 +1,864 @@
+
+/* ====================================
+   EDGAR MORALES
+   Portafolio de investigación cuantitativa
+   Estilo editorial minimalista
+   ==================================== */
+
+/* TIPOGRAFÍA */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+/* VARIABLES DE DISEÑO */
+
+:root {
+  --color-principal: #1d3557;
+  --color-texto: #172333;
+  --color-secundario: #607080;
+  --color-linea: #e3e8ed;
+  --color-navbar: #F0EBE3;
+  --color-navbar-texto: #24465B;
+}
+
+/* ====================================
+   ESTILO GENERAL
+   ==================================== */
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--color-texto);
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar,
+.btn {
+  font-family: "Raleway", sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+a {
+  text-underline-offset: 4px;
+}
+
+/* ====================================
+   BARRA DE NAVEGACIÓN
+   ==================================== */
+
+.navbar {
+  background-color: #ffffff !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Nombre */
+
+.navbar .navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.18rem;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  text-transform: none;
+  color: var(--color-navbar-texto) !important;
+  transition: color 0.2s ease;
+}
+
+/* Enlaces */
+
+.navbar .navbar-nav .nav-link {
+  font-size: 0.92rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: #172333 !important;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--color-secundario) !important;
+}
+
+/* Página activa */
+
+.navbar .navbar-nav .nav-link.active {
+  color: var(--color-navbar-texto) !important;
+  font-weight: 500;
+}
+
+/* Ancho y márgenes de la navegación */
+
+.navbar > .container-fluid {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* Icono de búsqueda */
+
+.navbar #quarto-search .aa-DetachedSearchButton,
+.navbar #quarto-search .aa-DetachedSearchButtonIcon {
+  color: var(--color-navbar-texto) !important;
+}
+
+.navbar #quarto-search svg {
+  stroke: var(--color-navbar-texto) !important;
+}
+
+/* Menú móvil */
+
+.navbar .navbar-toggler {
+  border-color: rgba(36, 70, 91, 0.35);
+}
+
+.navbar .navbar-toggler-icon {
+  filter: none;
+}
+
+/* ====================================
+   CONTENEDOR DE LA PORTADA
+   ==================================== */
+
+.home-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* Ocultar título automático en Inicio */
+
+body:has(.home-container) #title-block-header {
+  display: none;
+}
+
+/* ====================================
+   PRESENTACIÓN PRINCIPAL
+   ==================================== */
+
+.hero {
+  padding: 30px 0 40px;
+}
+
+.hero h1 {
+  font-size: clamp(2.3rem, 5vw, 4rem);
+  font-weight: 600;
+  line-height: 1.13;
+  max-width: 900px;
+  margin: 24px 0;
+}
+
+.hero > p {
+  max-width: 720px;
+  font-size: 1.15rem;
+  color: var(--color-secundario);
+}
+
+/* ====================================
+   BOTONES
+   ==================================== */
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.hero-actions .btn {
+  font-weight: 500;
+  padding: 0.55rem 0.85rem;
+}
+
+.btn-primary {
+  background-color: #34566B;
+  border-color: #34566B;
+}
+
+.btn-primary:hover {
+  background-color: #24465B;
+  border-color: #24465B;
+}
+
+/* ====================================
+   SECCIONES DE LA PORTADA
+   ==================================== */
+
+.home-container h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+
+.home-container hr {
+  border: 0;
+  border-top: 1px solid var(--color-linea);
+  opacity: 1;
+  margin: 0;
+}
+
+.home-container > p {
+  max-width: 800px;
+}
+
+/* Texto destacado sin exceso de peso */
+
+.home-container strong {
+  font-weight: 500;
+}
+
+/* ====================================
+   DIRECTORIO DE LIBRERÍAS DE R
+   ==================================== */
+
+.paquetes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 36px;
+  max-width: 800px;
+  margin: 40px 0;
+}
+
+.paquete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 18px;
+  color: var(--color-texto);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.paquete img {
+  width: 125px;
+  height: 145px;
+  object-fit: contain;
+}
+
+.paquete:hover {
+  transform: translateY(-4px);
+  color: var(--color-principal);
+}
+
+/* ====================================
+   DISEÑO RESPONSIVO
+   ==================================== */
+
+@media (max-width: 768px) {
+
+  .home-container {
+    padding: 0 18px;
+  }
+
+  .hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero > p {
+    font-size: 1rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar > .container-fluid {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .paquetes-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .paquete img {
+    width: 95px;
+    height: 115px;
+  }
+
+}
+
+/* Etiqueta sobre el título principal */
+
+.hero-label {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.10em;
+  color: #607080;
+  margin-bottom: 18px;
+}
+
+/* Menú: Raleway ligera en mayúsculas */
+
+.navbar .navbar-nav .nav-link {
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #172333 !important;
+}
+
+/* Título principal: rojo institucional */
+
+.hero h1 {
+  font-weight: 400;
+  color: #A6192E;
+}
+
+/* Enlaces en azul claro */
+
+.home-container a:not(.btn) {
+  color: #4389B4;
+}
+/* Menú centrado en pantallas grandes */
+
+@media (min-width: 992px) {
+  .navbar > .container-fluid {
+    position: relative;
+  }
+
+  .navbar .navbar-collapse {
+    justify-content: center !important;
+  }
+
+  .navbar .navbar-nav {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+
+/* ====================================
+   METODOLOGÍA: CICLO DE ANÁLISIS
+   ==================================== */
+
+
+/* ==========================================
+   METODOLOGÍA V2 — MOSAICO CROMÁTICO
+   ========================================== */
+
+/* Encabezado general */
+
+body:has(.ciclo-grid) #title-block-header {
+  display: none;
+}
+
+body:has(.ciclo-grid) main.content h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  color: #A6192E;
+  margin-bottom: 24px;
+}
+
+/* Cuadrícula de tres columnas */
+
+.ciclo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 42px;
+  margin-bottom: 48px;
+  align-items: stretch;
+}
+
+/* Tarjetas */
+
+.ciclo-card {
+  padding: 30px 32px;
+  border-radius: 6px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.2s ease;
+}
+
+.ciclo-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Distribución asimétrica */
+
+.ciclo-card.etapa-01 {
+  grid-column: span 2;
+}
+
+.ciclo-card.etapa-02 {
+  grid-column: span 1;
+}
+
+.ciclo-card.etapa-03 {
+  grid-column: span 1;
+}
+
+.ciclo-card.etapa-04 {
+  grid-column: span 2;
+}
+
+.ciclo-card.etapa-05 {
+  grid-column: span 2;
+}
+
+.ciclo-card.etapa-06 {
+  grid-column: span 1;
+}
+
+.ciclo-card.etapa-07 {
+  grid-column: 1 / -1;
+}
+
+/* Colores intensos */
+
+.ciclo-card.etapa-01 {
+  background-color: #294B85;
+}
+
+.ciclo-card.etapa-02 {
+  background-color: #159F67;
+}
+
+.ciclo-card.etapa-03 {
+  background-color: #383838;
+}
+
+.ciclo-card.etapa-04 {
+  background-color: #8A5C3D;
+}
+
+.ciclo-card.etapa-05 {
+  background-color: #D62A8A;
+}
+
+.ciclo-card.etapa-06 {
+  background-color: #34466F;
+}
+
+.ciclo-card.etapa-07 {
+  background-color: #17A46B;
+}
+
+/* Número de etapa */
+
+.ciclo-numero {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: #FFFFFF;
+  opacity: 0.9;
+  margin-bottom: 22px;
+}
+
+/* Título de cada tarjeta */
+
+.ciclo-card h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.23rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.35;
+  color: #FFFFFF;
+  margin: 0 0 16px;
+}
+
+/* Descripción */
+
+.ciclo-card p {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.93rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #FFFFFF;
+  opacity: 0.96;
+  margin: 0;
+}
+
+/* Tabletas: dos columnas */
+
+@media (max-width: 1050px) {
+  .ciclo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ciclo-card[class*="etapa-"] {
+    grid-column: auto;
+  }
+
+  .ciclo-card.etapa-01,
+  .ciclo-card.etapa-07 {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Móviles: una columna */
+
+@media (max-width: 768px) {
+  .ciclo-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 30px;
+  }
+
+  .ciclo-card[class*="etapa-"] {
+    grid-column: 1 / -1;
+  }
+
+  .ciclo-card {
+    padding: 24px;
+  }
+
+  .ciclo-card h3 {
+    font-size: 1.15rem;
+  }
+
+  .ciclo-card p {
+    font-size: 0.91rem;
+  }
+}
+
+}
+
+/* Ocultar título automático en Metodología */
+
+body:has(.ciclo-grid) #title-block-header {
+  display: none;
+}
+/* Título principal del ciclo de análisis */
+
+body:has(.ciclo-grid) main.content h1 {
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  color: #A6192E;
+  margin-bottom: 24px;
+}
+/* Ocultar enlaces automáticos de los títulos en las tarjetas */
+
+.ciclo-card .anchorjs-link {
+  display: none !important;
+}
+
+
+/* BIO: FOTOGRAFÍA */
+
+.bio-foto {
+  display: block;
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  margin: 18px auto 32px;
+  border-radius: 0;
+}
+
+/* Ocultar título visible únicamente en Bio */
+body:has(.bio-foto) #title-block-header {
+  display: none;
+}
+
+
+/* ==========================================
+   METODOLOGÍA V2.1
+   MOSAICO 55/45 Y COLORES MODERADOS
+   ========================================== */
+
+/* Distribución asimétrica más equilibrada */
+
+.ciclo-grid {
+  display: grid;
+  grid-template-columns: repeat(20, minmax(0, 1fr));
+  gap: 18px;
+}
+
+/* Fila 1: 55% / 45% */
+
+.ciclo-card.etapa-01 {
+  grid-column: span 11;
+}
+
+.ciclo-card.etapa-02 {
+  grid-column: span 9;
+}
+
+/* Fila 2: 45% / 55% */
+
+.ciclo-card.etapa-03 {
+  grid-column: span 9;
+}
+
+.ciclo-card.etapa-04 {
+  grid-column: span 11;
+}
+
+/* Fila 3: 55% / 45% */
+
+.ciclo-card.etapa-05 {
+  grid-column: span 11;
+}
+
+.ciclo-card.etapa-06 {
+  grid-column: span 9;
+}
+
+/* Fila 4: ancho completo */
+
+.ciclo-card.etapa-07 {
+  grid-column: 1 / -1;
+}
+
+/* Nueva paleta cromática */
+
+.ciclo-card.etapa-01 {
+  background-color: #465C87;
+}
+
+.ciclo-card.etapa-02 {
+  background-color: #287E69;
+}
+
+.ciclo-card.etapa-03 {
+  background-color: #454B50;
+}
+
+.ciclo-card.etapa-04 {
+  background-color: #8B6851;
+}
+
+.ciclo-card.etapa-05 {
+  background-color: #965B79;
+}
+
+.ciclo-card.etapa-06 {
+  background-color: #485F75;
+}
+
+.ciclo-card.etapa-07 {
+  background-color: #527F70;
+}
+
+/* Jerarquía interna */
+
+.ciclo-numero {
+  font-size: 1.7rem;
+  margin-bottom: 24px;
+}
+
+.ciclo-card h3 {
+  margin-bottom: 18px;
+}
+
+/* Adaptación a pantallas pequeñas */
+
+@media (max-width: 900px) {
+  .ciclo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ciclo-card[class*="etapa-"] {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ==========================================
+   METODOLOGÍA V2.2 — NÚMEROS HEXAGONALES
+   ========================================== */
+
+/* METODOLOGÍA V2.3 — HEXÁGONO DELINEADO */
+
+.ciclo-numero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 66px;
+  height: 72px;
+  margin-bottom: 24px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #FFFFFF;
+  opacity: 1;
+
+  background: rgba(255, 255, 255, 0.65);
+
+  clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+}
+
+.ciclo-numero::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+
+  background: var(--color-etapa);
+
+  clip-path: inherit;
+  z-index: -1;
+}
+
+/* Fondo interior según la tarjeta */
+
+.etapa-01 { --color-etapa: #465C87; }
+.etapa-02 { --color-etapa: #287E69; }
+.etapa-03 { --color-etapa: #454B50; }
+.etapa-04 { --color-etapa: #8B6851; }
+.etapa-05 { --color-etapa: #965B79; }
+.etapa-06 { --color-etapa: #485F75; }
+.etapa-07 { --color-etapa: #527F70; }
+
+
+/* ==========================================
+   METODOLOGÍA V2.4 — TARJETAS MINIMALISTAS
+   ========================================== */
+
+/* Tarjetas blancas con contorno discreto */
+
+.ciclo-grid .ciclo-card {
+  background-color: #FFFFFF;
+  border: 1px solid #DCE2E7;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+/* Títulos y descripciones */
+
+.ciclo-grid .ciclo-card h3 {
+  color: #172333;
+}
+
+.ciclo-grid .ciclo-card p {
+  color: #394858;
+  opacity: 1;
+}
+
+/* Hexágonos con color */
+
+.ciclo-grid .ciclo-numero {
+  color: #FFFFFF;
+  background-color: var(--color-etapa);
+  opacity: 1;
+}
+
+/* Eliminar el interior del hexágono delineado */
+
+.ciclo-grid .ciclo-numero::before {
+  display: none;
+}
+
+/* Colores de cada etapa */
+
+.ciclo-card.etapa-01 { --color-etapa: #465C87; }
+.ciclo-card.etapa-02 { --color-etapa: #287E69; }
+.ciclo-card.etapa-03 { --color-etapa: #454B50; }
+.ciclo-card.etapa-04 { --color-etapa: #8B6851; }
+.ciclo-card.etapa-05 { --color-etapa: #965B79; }
+.ciclo-card.etapa-06 { --color-etapa: #485F75; }
+.ciclo-card.etapa-07 { --color-etapa: #527F70; }
+
+/* Interacción sutil */
+
+.ciclo-grid .ciclo-card:hover {
+  transform: translateY(-2px);
+  border-color: #C2CBD3;
+}
+
+/* BIO — RETRATO HEXAGONAL */
+
+.bio-hexagono {
+  position: relative;
+  width: 340px;
+  height: 370px;
+  max-width: 100%;
+  margin: 18px auto 32px;
+
+  background-color: #F0F1F2;
+
+  clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+
+  overflow: hidden;
+}
+
+/* BIO — AJUSTE DEL RETRATO */
+
+.bio-hexagono img {
+  position: absolute;
+
+  width: 205%;
+  max-width: none;
+  height: auto;
+
+  left: -105%;
+  top: -9%;
+}
+
+/* BIO — OCULTAR TÍTULO AUTOMÁTICO */
+
+body:has(.bio-hexagono) #title-block-header {
+  display: none;
+}
+
+/* BIO — BORDE HEXAGONAL */
+
+.bio-hexagono {
+  isolation: isolate;
+}
+
+/* BIO — BORDE HEXAGONAL */
+
+.bio-hexagono {
+  position: relative;
+  isolation: isolate;
+}
+
+.bio-hexagono::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+
+  background: #AEBBC6;
+
+  clip-path: polygon(
+    evenodd,
+    50% 0%, 100% 25%, 100% 75%,
+    50% 100%, 0% 75%, 0% 25%,
+    50% 0%,
+    50% 0.6%, 0.6% 25.3%,
+    0.6% 74.7%, 50% 99.4%,
+    99.4% 74.7%, 99.4% 25.3%,
+    50% 0.6%
+  );
+}
