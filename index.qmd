@@ -27,13 +27,11 @@ Análisis de fuentes secundarias mediante métodos estadísticos y R, con énfas
 
 ------------------------------------------------------------------------
 
-
-
 ## Áreas de análisis
 
-Aplicación de métodos estadísticos y técnicas de análisis cuantitativo al estudio de problemas públicos.
+Aplicación de métodos cuantitativos al diagnóstico y evaluación de políticas públicas.
 
-**Estadística descriptiva · Inferencia estadística · Modelos de regresión · Series temporales · Análisis espacial · Simulación **
+**Diagnóstico de problemas públicos · Pruebas de hipótesis · Evaluación de impacto · Análisis predictivo · Análisis territorial · Simulación de escenarios · Análisis costo-beneficio · Análisis costo-efectividad**
 
 
 
