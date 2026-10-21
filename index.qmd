@@ -14,9 +14,9 @@ R / ESTADÍSTICA / INVESTIGACIÓN
 :::
 
 
-# Investigación cuantitativa aplicada a políticas públicas
+# Investigación cuantitativa aplicada a organizaciones
 
-Análisis de fuentes secundarias mediante métodos estadísticos y R, con énfasis en la transparencia metodológica y la reproducibilidad.
+Análisis de datos para mejorar la toma de decisiones en la gestión empresarial y pública.
 
 ::: hero-actions
 [Explorar proyectos](proyectos.qmd){.btn .btn-primary}
@@ -26,28 +26,24 @@ Análisis de fuentes secundarias mediante métodos estadísticos y R, con énfas
 ::::
 
 ------------------------------------------------------------------------
-
 ## Áreas de análisis
 
-Aplicación de métodos cuantitativos al diagnóstico y evaluación de políticas públicas.
+Aplicación de métodos cuantitativos al diagnóstico de problemas, evaluación de resultados y toma de decisiones en organizaciones públicas y privadas.
 
-**Diagnóstico de problemas públicos · Pruebas de hipótesis · Evaluación de impacto · Análisis predictivo · Análisis territorial · Simulación de escenarios · Análisis costo-beneficio · Análisis costo-efectividad**
+**Diagnóstico organizacional · Pruebas de hipótesis · Evaluación de impacto · Análisis predictivo · Análisis territorial · Simulación de escenarios · Análisis costo-beneficio · Análisis costo-efectividad**
 
-
-
-------------------------------------------------------------------------
+---
 
 ## Investigaciones
 
-Una selección de investigaciones sobre problemas públicos, con sus principales hallazgos, resultados y fuentes de información.
+Una selección de investigaciones aplicadas a la gestión empresarial y pública, con sus principales hallazgos, resultados y fuentes de información.
 
 [Consultar proyectos →](proyectos.qmd)
 
-------------------------------------------------------------------------
+---
 
 ## Metodología de trabajo
 
-El trabajo se organiza mediante un ciclo de análisis de datos de ocho etapas, desde la definición de la pregunta de investigación hasta la comunicación de resultados.
+El trabajo se organiza mediante un ciclo de análisis de datos de siete etapas, desde la definición de la pregunta de investigación hasta la comunicación de resultados.
 
 [Consultar metodología →](metodologia.qmd)
-:::::
