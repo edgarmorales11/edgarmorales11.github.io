@@ -21,25 +21,18 @@
     "text": "Colección de paquetes de R para la importación, transformación, visualización y análisis de datos.\n\n  dplyr \n  ggplot2 \n  tidyr \n  readr \n  purrr \n  tibble \n  stringr \n  forcats \n  lubridate"
   },
   {
-    "objectID": "index.html#áreas-de-análisis",
-    "href": "index.html#áreas-de-análisis",
-    "title": "Inicio",
-    "section": "Áreas de análisis",
-    "text": "Áreas de análisis\nAplicación de métodos cuantitativos al diagnóstico y evaluación de políticas públicas.\nDiagnóstico de problemas públicos · Pruebas de hipótesis · Evaluación de impacto · Análisis predictivo · Análisis territorial · Simulación de escenarios · Análisis costo-beneficio · Análisis costo-efectividad"
-  },
-  {
     "objectID": "index.html#investigaciones",
     "href": "index.html#investigaciones",
     "title": "Inicio",
     "section": "Investigaciones",
-    "text": "Investigaciones\nUna selección de investigaciones sobre problemas públicos, con sus principales hallazgos, resultados y fuentes de información.\nConsultar proyectos →"
+    "text": "Investigaciones\nUna selección de investigaciones aplicadas a la gestión empresarial y pública, con sus principales hallazgos, resultados y fuentes de información.\nConsultar proyectos →"
   },
   {
     "objectID": "index.html#metodología-de-trabajo",
     "href": "index.html#metodología-de-trabajo",
     "title": "Inicio",
     "section": "Metodología de trabajo",
-    "text": "Metodología de trabajo\nEl trabajo se organiza mediante un ciclo de análisis de datos de ocho etapas, desde la definición de la pregunta de investigación hasta la comunicación de resultados.\nConsultar metodología →"
+    "text": "Metodología de trabajo\nEl trabajo se organiza mediante un ciclo de análisis de datos de siete etapas, desde la definición de la pregunta de investigación hasta la comunicación de resultados.\nConsultar metodología →"
   },
   {
     "objectID": "proyectos.html",
