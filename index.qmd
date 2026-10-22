@@ -14,7 +14,7 @@ R / ESTADÍSTICA / INVESTIGACIÓN
 :::
 
 
-# Investigación cuantitativa aplicada a organizaciones
+# Investigación cuantitativa aplicada a políticas públicas
 
 Análisis de datos para mejorar la toma de decisiones en la gestión empresarial y pública.
 
@@ -26,11 +26,47 @@ Análisis de datos para mejorar la toma de decisiones en la gestión empresarial
 ::::
 
 ------------------------------------------------------------------------
+
+
+
 ## Áreas de análisis
 
-Aplicación de métodos cuantitativos al diagnóstico de problemas, evaluación de resultados y toma de decisiones en organizaciones públicas y privadas.
+Aplicamos métodos cuantitativos para estudiar problemas reales del gobierno, generar evidencia y apoyar la toma de decisiones en la administración pública.
 
-**Diagnóstico organizacional · Pruebas de hipótesis · Evaluación de impacto · Análisis predictivo · Análisis territorial · Simulación de escenarios · Análisis costo-beneficio · Análisis costo-efectividad**
+#### Análisis descriptivo y exploratorio (EDA)
+
+Examinar datos para identificar patrones, tendencias, desigualdades y características de los problemas públicos.
+
+#### Pruebas de hipótesis
+
+Contrastar afirmaciones y determinar si las diferencias o relaciones observadas en los datos tienen respaldo estadístico.
+
+#### Evaluación de impacto
+
+Estimar los efectos causales de programas, intervenciones y políticas públicas sobre la población beneficiaria.
+
+#### Análisis predictivo
+
+Anticipar la demanda de servicios públicos, identificar riesgos y estimar comportamientos futuros mediante modelos estadísticos.
+
+#### Análisis territorial
+
+Examinar la distribución geográfica de los problemas públicos, las desigualdades territoriales y el acceso a servicios y recursos.
+
+#### Simulación de escenarios
+
+Modelar posibles resultados de distintas decisiones gubernamentales y analizar sus consecuencias bajo diferentes supuestos.
+
+#### Análisis costo-beneficio
+
+Comparar los costos y beneficios económicos y sociales de proyectos, programas y políticas públicas.
+
+#### Análisis costo-efectividad
+
+Comparar alternativas de intervención para identificar cuáles permiten alcanzar determinados resultados públicos con el menor costo posible.
+
+
+
 
 ---
 
