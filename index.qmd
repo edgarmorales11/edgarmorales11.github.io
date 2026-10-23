@@ -16,7 +16,7 @@ R / ESTADÍSTICA / INVESTIGACIÓN
 
 # Investigación cuantitativa aplicada a políticas públicas
 
-Análisis de datos para mejorar la toma de decisiones en la gestión empresarial y pública.
+Aplicamos métodos cuantitativos para estudiar problemas reales del gobierno, generar evidencia y apoyar la toma de decisiones en la administración pública.
 
 ::: hero-actions
 [Explorar proyectos](proyectos.qmd){.btn .btn-primary}
@@ -31,7 +31,6 @@ Análisis de datos para mejorar la toma de decisiones en la gestión empresarial
 
 ## Áreas de análisis
 
-Aplicamos métodos cuantitativos para estudiar problemas reales del gobierno, generar evidencia y apoyar la toma de decisiones en la administración pública.
 
 #### Análisis descriptivo y exploratorio (EDA)
 
